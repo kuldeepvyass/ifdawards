@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Logs and debug
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Optional (uncomment if you use)
+# .env.production
+
+# Large files and MongoDB
+mongodb-data/
+mongodb-macos-x86_64-7.0.5/
+*.tgz
+*.tar.gz
+
+# Large video files
+src/assets/videos/*.mp4
